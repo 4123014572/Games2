@@ -55,7 +55,7 @@ max-width: 200px;
 	border: 2px;
 	border-style: solid;
 	border-color: #FF9933;
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 	background-color: white;
 	background-image: url("https://upload.wikimedia.org/wikipedia/commons/d/dc/Blank_malaysia_map.svg");
 	background-repeat: no-repeat;
@@ -193,4 +193,10 @@ p{
 	text-align: center;
 	color:#FF9933;
 	text-decoration: bold;
+}
+
+/*size web*/
+.sampleClass {float:left;}
+@media only screen and (max-width: 800px){
+	.sampleClass {float:none;}
 }
